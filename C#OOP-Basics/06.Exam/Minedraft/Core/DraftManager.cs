@@ -40,27 +40,6 @@ public class DraftManager
         }
     }
 
-    //private Harvester GetHarvester(List<string> arguments)
-    //{
-    //    string type = arguments[0];
-    //    string id = arguments[1];
-    //    double oreOutput = double.Parse(arguments[2]);
-    //    double energyRequirment = double.Parse(arguments[3]);
-
-    //    switch (type)
-    //    {
-    //        case "Hammer":
-    //            return new HammerHarvester(id, oreOutput, energyRequirment);
-    //            break;
-    //        case "Sonic":
-    //            return new SonicHarvester(id, oreOutput, energyRequirment, int.Parse(arguments[4]));
-    //            break;
-    //        default:
-    //            throw new ArgumentException("Harvester failed to be created.");
-    //            break;
-    //    }
-    //}
-
     public string RegisterProvider(List<string> arguments)
     {
         string type = arguments[0];
@@ -82,26 +61,6 @@ public class DraftManager
             return e.Message;
         }
     }
-
-    //private Provider GetProvider(List<string> arguments)
-    //{
-    //    var type = arguments[0];
-    //    var id = arguments[1];
-    //    var energy = double.Parse(arguments[2]);
-
-    //    switch (type)
-    //    {
-    //        case "Solar":
-    //            return new SolarProvider(id, energy);
-    //            break;
-    //        case "Pressure":
-    //            return new PressureProvider(id, energy);
-    //            break;
-    //        default:
-    //            throw new ArgumentException("Provider failed to be created.");
-    //            break;
-    //    }
-    //}
 
     public string Day()
     {
