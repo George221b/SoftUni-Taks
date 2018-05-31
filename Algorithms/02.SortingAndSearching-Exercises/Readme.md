@@ -1,0 +1,429 @@
+<h1>Homework: Sorting and Searching Algorithms</h1>
+<p>This document defines the <strong>homework assignments</strong> for the <a href="https://softuni.bg/trainings/1194/Algorithms-September-2015">"Algortihms" course @ Software University</a>. Please submit a single zip / rar / 7z archive holding the solutions (source code) of all below described problems.</p>
+<h2>1.&nbsp;&nbsp; Sorting</h2>
+<p>Implement any or many of the following sorting algorithms:</p>
+<ul>
+<li>Insertions Sort</li>
+<li>Bubble Sort</li>
+<li>Shell Sort</li>
+<li>Merge Sort</li>
+<li>Quicksort</li>
+<li>Bucket Sort</li>
+</ul>
+<p>Read a sequence of numbers from the console, sort them and print them back.</p>
+<h3>Examples</h3>
+<table>
+<tbody>
+<tr>
+<td width="228">
+<p><strong>Input</strong></p>
+</td>
+<td width="252">
+<p><strong>Output</strong></p>
+</td>
+</tr>
+<tr>
+<td width="228">
+<p>5 4 3 2 1</p>
+</td>
+<td width="252">
+<p>1 2 3 4 5</p>
+</td>
+</tr>
+<tr>
+<td width="228">
+<p>1 4 2 -1 0</p>
+</td>
+<td width="252">
+<p>-1 0 1 2 4</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Here is a breakdown of judge tests:</p>
+<table>
+<tbody>
+<tr>
+<td width="121">
+<p><strong>Test N</strong></p>
+</td>
+<td width="214">
+<p><strong>N of Elements</strong></p>
+</td>
+<td width="175">
+<p><strong>Comments</strong></p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>001</p>
+</td>
+<td rowspan="4" width="214">
+<p>1k</p>
+</td>
+<td width="175">
+<p>Random</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>002</p>
+</td>
+<td width="175">
+<p>Sorted</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>003</p>
+</td>
+<td width="175">
+<p>Reversed</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>004</p>
+</td>
+<td width="175">
+<p>Duplicate</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>005</p>
+</td>
+<td rowspan="4" width="214">
+<p>10k</p>
+</td>
+<td width="175">
+<p>Random</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>006</p>
+</td>
+<td width="175">
+<p>Sorted</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>007</p>
+</td>
+<td width="175">
+<p>Reversed</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>008</p>
+</td>
+<td width="175">
+<p>Duplicate</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>009</p>
+</td>
+<td rowspan="4" width="214">
+<p>100k</p>
+</td>
+<td width="175">
+<p>Random</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>010</p>
+</td>
+<td width="175">
+<p>Sorted</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>011</p>
+</td>
+<td width="175">
+<p>Reversed</p>
+</td>
+</tr>
+<tr>
+<td width="121">
+<p>012</p>
+</td>
+<td width="175">
+<p>Duplicate</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>2.&nbsp;&nbsp; Searching</h2>
+<p>Implement any or many of the following sorting algorithms:</p>
+<ul>
+<li>Linear Search</li>
+<li>Binary Search</li>
+<li>Fibonacci Search</li>
+</ul>
+<p>Read a sequence of numbers on the first line and a single number on the second from the console. Find the index of the number in the given array. Return -1 if the element is not present in the array.</p>
+<h3>Examples</h3>
+<table>
+<tbody>
+<tr>
+<td width="228">
+<p><strong>Input</strong></p>
+</td>
+<td width="252">
+<p><strong>Output</strong></p>
+</td>
+</tr>
+<tr>
+<td width="228">
+<p>1 2 3 4 5</p>
+<p>1</p>
+</td>
+<td width="252">
+<p>0</p>
+</td>
+</tr>
+<tr>
+<td width="228">
+<p>1 2 3 4 5</p>
+<p>6</p>
+</td>
+<td width="252">
+<p>-1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>3.&nbsp;&nbsp; Inversion Count</h2>
+<p>Assume an inversion count is how far (or close) the array is from being sorted. If array is already sorted then inversion count is 0. If array is sorted in reverse order then inversion count is at its maximum.</p>
+<p>Two elements a[i] and a[j] form an inversion if a[i] &gt; a[j] and i &lt; j.</p>
+<p>Find and <strong>print the count of all inversions</strong> in a given input array.</p>
+<h3>Examples</h3>
+<table>
+<tbody>
+<tr>
+<td width="228">
+<p><strong>Input</strong></p>
+</td>
+<td width="252">
+<p><strong>Output</strong></p>
+</td>
+<td width="252">
+<p><strong>Inversions</strong></p>
+</td>
+</tr>
+<tr>
+<td width="228">
+<p>2 4 1 3 5</p>
+</td>
+<td width="252">
+<p>3</p>
+</td>
+<td width="252">
+<p>2 1</p>
+<p>4 1</p>
+<p>4 3</p>
+</td>
+</tr>
+<tr>
+<td width="228">
+<p>5 4 3 2 1</p>
+</td>
+<td width="252">
+<p>10</p>
+</td>
+<td width="252">
+<p>5 4</p>
+<p>5 3</p>
+<p>5 2</p>
+<p>5 1</p>
+<p>4 3</p>
+<p>4 2</p>
+<p>4 1</p>
+<p>3 2</p>
+<p>3 1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3>Hints</h3>
+<p>Use a modified version of merge sort.</p>
+<p>Useful read: <a href="http://www.geeksforgeeks.org/counting-inversions/">http://www.geeksforgeeks.org/counting-inversions/</a></p>
+<h2>4.&nbsp;&nbsp; * Words</h2>
+<p>You can test your solution to the problem in the Judge system <a href="https://judge.softuni.bg/Contests/Practice/Index/114#2">here</a>.</p>
+<p>You are given a string containing Latin letters. Write a program that finds <strong>the number of all words with no two consecutive equal characters that can be generated by reordering the given letters</strong>. The generated words should contain all given letters. If the given word meets the requirements it should also be considered in the count.</p>
+<h3>Input</h3>
+<ul>
+<li>The input data should be read from the console.</li>
+<li>On the only input line, there will be a single word containing all the letters that you should use for generating the words.</li>
+<li>The input data will always be valid and in the format described. There is no need to check it explicitly.</li>
+</ul>
+<h3>Output</h3>
+<ul>
+<li>The output data should be printed on the console.</li>
+<li>On the only output line write the number of words found.</li>
+</ul>
+<h3>Constraints</h3>
+<ul>
+<li>The number of the given letters will be between 1 and 10, inclusive.</li>
+<li>All given letters will be small Latin letters ('a' &ndash; 'z')</li>
+<li>Allowed working time for your program: 0.35 seconds. Allowed memory: 32</li>
+</ul>
+<h3>Examples</h3>
+<table width="1425">
+<tbody>
+<tr>
+<td width="105">
+<p><strong>Input</strong></p>
+</td>
+<td width="360">
+<p><strong>Sample Output</strong></p>
+</td>
+<td width="960">
+<p><strong>Comments</strong></p>
+</td>
+</tr>
+<tr>
+<td width="105">
+<p>xy</p>
+</td>
+<td width="360">
+<p>2</p>
+</td>
+<td width="960">
+<p>Two possible words: "xy" and "yx"</p>
+</td>
+</tr>
+<tr>
+<td width="105">
+<p>xxxy</p>
+</td>
+<td width="360">
+<p>0</p>
+</td>
+<td width="960">
+<p>It is impossible to construct a word with these letters.</p>
+</td>
+</tr>
+<tr>
+<td width="105">
+<p>aahhhaa</p>
+</td>
+<td width="360">
+<p>1</p>
+</td>
+<td width="960">
+<p>The only possible word is "ahahaha".</p>
+</td>
+</tr>
+<tr>
+<td width="105">
+<p>nopqrstuvw</p>
+</td>
+<td width="360">
+<p>3628800</p>
+</td>
+<td width="960">
+<p>There are 3628800 possible words.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>5.&nbsp;&nbsp; * Needles</h2>
+<p>You can test your solution to the problem in the Judge system <a href="https://judge.softuni.bg/Contests/Practice/Index/114#3">here</a>.</p>
+<p>This problem is about finding the proper place of numbers in an array. From the console, you&rsquo;ll read a sequence of non-decreasing integers with randomly distributed "holes" among them (represented by zeros).</p>
+<p>Then you&rsquo;ll be given the needles &ndash; numbers which should be inserted into the sequence, so that it remains non-decreasing (discounting the "holes"). For each needle, find the left-most index where it can be inserted.</p>
+<h3>Input</h3>
+<ul>
+<li>The input should be read from the console.</li>
+<li>On the first line you&rsquo;ll be given the numbers C and N separated by a space.</li>
+<li>On the second line you&rsquo;ll be given C non-negative integers forming a non-decreasing sequence (disregarding the zeros).</li>
+<li>On the third line you&rsquo;ll be given N positive integers, the needles.</li>
+<li>The input data will always be valid and in the format described. There is no need to check it explicitly.</li>
+</ul>
+<h3>Output</h3>
+<ul>
+<li>The output should be printed on the console. It should consist of a single line.</li>
+<li>On the only output line print N numbers separated by a space. Each number represents the left-most index at which the respective needle can be inserted.</li>
+</ul>
+<h3>Constraints</h3>
+<ul>
+<li>All input numbers will be 32-bit signed integers.</li>
+<li>N will be in the range [1 &hellip; 1000].</li>
+<li>C will be in the range [1 &hellip; 50000].</li>
+<li>Allowed working time for your program: 0.1 seconds. Allowed memory: 16 MB.</li>
+</ul>
+<h3>Examples</h3>
+<table>
+<tbody>
+<tr>
+<td width="1390">
+<p><strong>Input</strong></p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p>23 9</p>
+<p>3 5 11 0 0 0 12 12 0 0 0 12 12 70 71 0 90 123 140 150 166 190 0</p>
+<p>5 13 90 1 70 75 7 188 12</p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p><strong>Output</strong></p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p>1 13 15 0 13 15 2 21 3</p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p><strong>Comments</strong></p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p>5 goes to index 1 &ndash; between 3 and 5</p>
+<p>13 goes to index 13 &ndash; 12 and 70</p>
+<p>90 goes to index 15 &ndash; between 71 and 0</p>
+<p>1 goes to index 0 &ndash; before 3</p>
+<p>Etc.</p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p><strong>Input</strong></p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p>11 4</p>
+<p>2 0 0 0 0 0 0 0 0 0 3</p>
+<p>4 3 2 1</p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p><strong>Output</strong></p>
+</td>
+</tr>
+<tr>
+<td width="1390">
+<p>11 1 0 0</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
