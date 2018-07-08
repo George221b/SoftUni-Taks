@@ -1,5 +1,4 @@
-![Alt text](https://softuni.bg/content/images/svg-logos/software-university-logo.svg?sanitize=true)
-<img src="https://softuni.bg/content/images/svg-logos/software-university-logo.svg?sanitize=true">
+<img src="https://softuni.bg/content/images/svg-logos/software-university-logo.svg?sanitize=true" alt="Software University Logo">
 
 <p>In this repo I collected some of the courses I finished, while studying at SoftUni. Each course contains <strong>labs</strong> (which are exercises during lectures), <strong>exercises</strong> (homework, done at home, usually harder than labs) and <strong>exams</strong>.<br /> <br /> Almost all folders with exercises contain a <strong>Readme.md</strong> file, which holds information about each exercise. Feel free to examine or look though the folders and exercises.<br /> <br /> Here are some interesting examples:</p>
 <ul>
